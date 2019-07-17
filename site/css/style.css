@@ -1,0 +1,113 @@
+h1 {
+   text-align: center;
+   font-size: 3vw;
+   color: rgba(0, 0, 0, .5);
+   font-family: sans-serif;
+   line-height: 5vw;
+   font-family: 'Righteous';
+   src: url('href="https://fonts.googleapis.com/css?family=Righteous&display=swap');
+}
+
+h2 {
+   text-align: center;
+   font-size: 2vw;
+   color: rgba(0, 0, 0, .5);
+   font-family: sans-serif;
+   line-height: 4vw;
+}
+
+h4 {
+   font-size: 1.5vw;
+   color: rgba(0, 0, 0, .5);
+   font-family: sans-serif;
+   line-height: 4vw;
+}
+
+.head > p {
+   font-size: 1vw;
+   color: rgba(0, 0, 0, .5);
+   font-family: sans-serif;
+   line-height: 2vw;
+   text-align: center;
+}
+
+body {
+   background-image: url('https://d4qwptktddc5f.cloudfront.net/T_41___1962___Dieter_Rams_007.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 50% 95%;
+   background-size: (54vw, 36vh);
+}
+
+.list {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 6vh;
+   background-color: #a19a7a;
+}
+
+nav > ul {
+   margin: 0 auto;
+   width: 50vw;
+   list-style-type: none;
+}
+
+nav > ul > li > a {
+   position: relative;
+   top: 2vh;
+   text-align: center;
+   color: white;
+   font-family: sans-serif;
+}
+
+nav > ul > li {
+   border-right: 6px solid #a19a7a;
+   text-align: center;
+   width: 16vw;
+   height: 6vh;
+   display: inline-block;
+}
+
+.para {
+   margin: auto;
+   background-color: rgb(255, 255, 255);
+   width: 45vw;
+   height: 270vh;
+   position: relative;
+   top: 65vw;
+   left: 0;
+   display: block;
+}
+
+.para > p {
+   text-align: center;
+   color: rgba(0, 0, 0, .5);
+   font-size: 1vw;
+   line-height: 3vw;
+   font-weight: 600;
+   font-family: 'Quicksand';
+   src: url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+}
+
+.head {
+   background-color: white;
+   position: fixed;
+   top: 6vh;
+   left: 15vw;
+   width: 70vw;
+   margin: auto;
+}
+
+a {
+   transition: 30ms;
+   color: white;
+   font-size: 1vw;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+li:hover {
+   background-color: rgba(255, 255, 255, .3);
+}
